@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./js/jquery-3.5.1.min.js"></script>
+</head>
+<body>
+    <h1></h1>
+    <script>
+    //获取 上一个文章页面传来的参数  
+    var twoText = window.location.href;
+    var twodata = twoText.split("="); //截取 url中的“=”,获得“=”后面的参数  
+    
+    var twoText = decodeURI(twodata[1]); //decodeURI解码  
+    // console.log(twoText);
+    $('h1').html(twoText)
+//    console.log( $('h1').text(twoText));
+   
+    
+
+    </script>
+    
+</body>
+</html>

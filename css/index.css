@@ -1,0 +1,1431 @@
+/* 清除内外边距 */
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/* 设置版心 */
+.w {
+   width: 15.625rem;
+   margin: 0 auto;
+}
+/* 头部地址栏 */
+.shortcut {
+  width: 100%;
+  height: 0.2604rem;
+  background-color: #004ea2;
+}
+/* 地址 */
+.shortcut .fl {
+  float: left;
+}
+.shortcut .fl .icon {
+  width: 0.2604rem;
+  height: 0.2604rem;
+  float: left;
+  display: block;
+  background: url('../image/icon/map.png') no-repeat center;
+  background-size: 0.2604rem 0.2604rem;
+}
+.shortcut .fl span {
+  display: block;
+  float: left;
+  font-size: 0.1042rem;
+  color: #fff;
+  height: 0.2604rem;
+  line-height: 0.2604rem;
+}
+/* 微信号 */
+.shortcut .fr {
+  float: right;
+  margin-right: 0.4167rem;
+}
+.shortcut .fr .icon {
+  width: 0.2604rem;
+  height: 0.2604rem;
+  float: left;
+  display: block;
+  background-color: #fff;
+  background: url('../image/icon/wechat.png') no-repeat center;
+  background-size: 0.2204rem 0.2204rem;
+  margin-right: 0.1042rem
+}
+.shortcut .fr span {
+  display: block;
+  float: left;
+  font-size: 0.1042rem;
+  color: #fff;
+  height: 0.2604rem;
+  line-height: 0.2604rem;
+}
+
+
+
+/* logo title部分 */
+.header {
+  height: 1.25rem;
+}
+/* logo 图标 */
+.header .fl {
+  margin-left: 0.4167rem;
+  width: 5.2083rem;
+  height: 1.25rem;
+  float: left;
+  background: url('../image/images/log.png')no-repeat center;
+  background-size: 5.2083rem 0.9375rem;
+}
+.header .fl a {
+  width: 5.2083rem;
+  height: 1.25rem;
+  display: block;
+}
+/* 电话部分 */
+.header .fr {
+  height: 1.25rem;
+  float: right;
+  display: flex;
+  align-items: center
+}
+/* 电话图片 */
+.header .fr img {
+  float: left;
+  width: 0.7708rem;
+  height: 0.6979rem;
+  align-items: center
+}
+/* 联系方式 */
+.header .fr ul li .last{
+  font-size: 0.125rem
+}
+.header .fr ul li .first{
+ font-size: 0.2708rem;
+ font-weight: 800;
+}
+
+
+
+
+/* swiper 轮播  */
+html, body {
+  position: relative;
+  height: 100%;
+}
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color:#000;
+  margin: 0;
+  padding: 0;
+}
+.swiper .swiper-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.swiper .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.swiper #swiper-p1 {
+    position: absolute;
+    text-align: center;
+    z-index: 9999;
+}
+.swiper #swiper-p1 .swiper-pagination-bullet {
+    width: 0.1667rem ;
+    height:  0.1667rem ;
+}
+
+
+
+/* 导航栏  导航列表 */
+.homeNav {
+  width: 100%;
+  height: 0.8438rem;
+  background-color: #9234d8;
+}
+.homeNav .w {
+  box-sizing: border-box;
+}
+.homeNav .nav {
+  width: 100%;
+  height: 0.8438rem;
+  display: flex;
+}
+.homeNav .nav li {
+  width: 100%;
+  flex: 1;
+  height: 0.8438rem;
+  border-right: 1px solid #fff;
+  position: relative;
+}
+.homeNav .nav .Home a i img {
+  width: 0.5125rem;
+  height: 0.3125rem;
+  position: absolute;
+  top: 30%;
+  left: 65%;
+   /* background-color: red; */
+}
+
+.homeNav .nav li a {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  font-size: 0.3083rem;
+  color: #fff;
+  width: 100%;
+  height: 0.8438rem;
+  line-height:0.8438rem;
+}
+.homeNav .nav .isShow {
+  background-color: #ccc;
+}
+
+
+/* 导航栏 下拉列表 */
+.homeNav .slidNav {
+  position: absolute;
+  display: none;
+  width: 2.5rem;
+  height: 4.2083rem;
+  background-color: #fff;
+  padding-top: 0.3646rem;
+  z-index: 9999;
+
+}
+.homeNav .slidNav  .isShow {
+  box-sizing: border-box;
+  width: 1.5rem;
+  height: 3.8rem;
+  margin:  0 auto;
+  border-left: 1px solid #8219d8;
+  padding-top: 0.2167rem
+  
+}
+.homeNav .slidNav  .isShow li {
+    list-style: none;
+    width: 1.5rem;
+    height: 0.525rem;
+}
+.homeNav .slidNav  .isShow li a {
+     margin: 0 auto;
+    font-size: 0.2292rem;
+    text-decoration: none;
+    color: #000;
+    line-height:  0.525rem;
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid #8219d8;
+    position: relative;
+}
+.homeNav .slidNav  .isShow li .box {
+    position: absolute;
+    top: 0rem;
+    left: 2.5rem;
+    display: none;
+    width: 12.7rem;
+    height: 4.566rem;
+    background-color: #fff;
+    z-index:9999;
+
+}
+.homeNav .slidNav  .isShow li  .box h1 {
+    font-size: 0.3125rem
+}
+
+
+/* 主治项目 */
+.project {
+  width: 100%;
+  height: 1.5625rem;
+  margin-bottom: 0.5333rem;
+}
+.project .w {
+  position: relative;
+}
+.project .governance {
+  float: left;
+  width: 2.7167rem;
+  height: 1.5625rem;
+  box-sizing: border-box;
+  position: relative;
+}
+.project .governance .fl {
+  width: 2.7167rem;
+  height: 1.5625rem;
+  float: left;
+  border-bottom: 1px solid #881bd9;
+  position: relative;
+}
+.project .governance .fl .kuai {
+  position: absolute;
+  width: 0.3125rem;
+  height: 0.5208rem;
+  background-color: #881bd9;
+  bottom: 0;
+  left: 0;
+}
+.project .governance .fl h1 {
+  position: absolute;
+  display: inline-block;
+  font-size: 0.5208rem;
+  font-weight: normal;
+  font-family: "微软雅黑";
+  bottom: 0;
+  left: 0.3958rem
+}
+.project .ele {
+  float: left;
+  width: 100%;
+  border-bottom: 1px solid #000;
+}
+.project .ele h1 {
+  position: absolute;
+   top: 1.0417rem;
+   left: 2.7167rem;;
+   font-size: 0.3438rem;
+}
+
+
+/* 项目详情 */
+.details {
+  width: 100%;
+  height: 9.6rem;
+}
+/* 项目类型 */
+.details .list {
+  width: 100%;
+  height: 8.8542rem;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.details .list ul {
+  width: 100%;
+  height: 0.5208rem;
+  background-color: #fff;
+  display: flex;
+}
+.details .list ul li {
+  float: left;
+  flex:1;
+  box-sizing: border-box;
+}
+
+.details .list ul li:first-child a{
+  background:#a95fe0;
+  color: #fff;
+}
+
+.details .list ul li a {
+  box-sizing: border-box;
+  display: block;
+  text-align: center;
+  height: 0.5208rem;
+  line-height: 0.5208rem;
+  text-decoration: none;
+  color: #000;
+  border: 1px solid #000;
+  font-size: 0.2292rem;
+  position: relative;
+}
+
+
+.details .list .type a span {
+  display: inline-block;
+  width: 0.3125rem;
+  height: 0.3125rem;
+  position: absolute;
+  top:0.05rem;
+  left: 1.7rem;
+  background: url('../image/icon/1-1.png') no-repeat;
+  background-size: 0.3125rem 0.3125rem ;
+}
+
+.details .list .type.typeyi a span {
+  display: inline-block;
+  width: 0.3125rem;
+  height: 0.3125rem;
+  position: absolute;
+  top:0.05rem;
+  left: 1.rem;
+  background: url('../image/icon/1.png') no-repeat;
+  background-size: 0.3125rem 0.3125rem ;
+}
+
+.details .list  #er a span {
+  display: inline-block;
+  width: 0.3125rem;
+  height: 0.3125rem;
+  position: absolute;
+  top:0.09rem;
+  left: 1.7rem;
+  background: url('../image/icon/1-2.png') no-repeat;
+  background-size: 0.3125rem 0.3125rem ;
+}
+
+.details .list .typeyi#er a span  {
+  display: inline-block;
+  width: 0.3125rem;
+  height: 0.3125rem;
+
+  position: absolute;
+  top:0.09rem;
+  left: 1.7rem;
+  background: url('../image/icon/2.png') no-repeat;
+  background-size: 0.3125rem 0.3125rem ;
+}
+
+.details .list  #san a span {
+  display: inline-block;
+  width: 0.3125rem;
+  height: 0.3125rem;
+  position: absolute;
+  top:0.09rem;
+  left: 1.5rem;
+  background: url('../image/icon/1-3.png') no-repeat;
+  background-size: 0.3125rem 0.3125rem ;
+}
+
+.details .list .typeyi#san a span  {
+  display: inline-block;
+  width: 0.3125rem;
+  height: 0.3125rem;
+
+  position: absolute;
+  top:0.09rem;
+  left: 1.5rem;
+  background: url('../image/icon/3.png') no-repeat;
+  background-size: 0.3125rem 0.3125rem ;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 项目内容 */
+.details .listContent {
+  width: 100%;
+  height: 8.5rem;
+}
+.details .listContent ul {
+  width: 100%;
+  height: 9rem;
+  display: flex;
+}
+.details .listContent ul li {
+  flex: 1;
+}
+.details .listContent ul li .box{
+  width: 4.8875rem;
+  height: 8.9rem;
+  background-color: #fff;
+  margin: 0.1042rem  0.1563rem;
+  position: relative;
+  box-sizing: border-box;
+
+}
+.details .listContent ul li .box .top {
+  width: 100%;
+  height: 4rem;
+  transition: opacity .5s; opacity: 1;
+  box-shadow: 4px 4px 5px #c6c6c6;;
+}
+/* 遮罩层 */
+.details .listContent ul li .box .top .mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4rem;
+  background: rgba(101, 101, 101, 0.6);
+  color: #ffffff;
+  opacity: 0;
+
+}
+/* 鼠标移入遮罩层 */
+.details .listContent ul li .box .top:hover .mask {
+  opacity: 1;
+}
+.details .listContent ul li .box .buttom{
+  margin-top: 0.1042rem;
+  width: 100%;
+  height: 4.9rem;
+  padding: 0.1563rem 0.1563rem;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+} 
+.details .listContent ul li .box .buttom h1 {
+  font-weight: normal;
+  font-size: 0.3438rem;
+  margin-bottom: 0.2083rem;
+}
+.details .listContent ul li .box .buttom p{
+  font-size: 0.125rem;
+  color: #536768;
+  margin-bottom: 0.2083rem;
+}
+.details .listContent ul li .box .buttom #div {
+  width: 1.4167rem;
+  background-color: #881bd9;
+  height: 0.5208rem;
+  position: absolute;
+  left: 0.1042rem;
+  bottom: 0.2083rem
+}
+.listContent ul li .box .buttom #div #a {
+  width: 1.4167rem;
+  height: 0.5208rem;
+  line-height: 0.5208rem;
+  text-align: center;
+  font-size: 0.1458rem;
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  border: 0 !important;
+}
+.listContent ul li .box .buttom #div #a:hover {
+  background-color: #881bd9
+}
+.listContent ul li .box .buttom .planp{
+  margin-bottom: 0.0313rem !important;
+
+}
+.listContent .isShow {
+  display: none;
+}
+
+
+
+/* 病类 */
+.Diseases {
+  width: 100%;
+  height: 1.875rem;
+  margin-bottom: 0.1042rem;
+}
+
+
+/* 问题部分 */
+.problem {
+  width: 100%;
+  height: 1.3542rem;
+}
+.btnFl {
+  width: 0.9792rem;
+  height: 1.0938rem;
+  background-color: #9331dd;
+  border-radius: 0.1563rem;
+  padding-top: 0.2604rem;
+  float: left;
+}
+.btnFl p {
+  font-size: 0.2083rem;
+  text-align: center;
+  color: #fff;
+}
+.btnList {
+  width: 14.6rem;
+  height: 1.3542rem;
+  float: left;
+  color: #fff;
+}
+.smallbtn {
+  float: left;
+}
+.smallbtn li {
+  list-style: none;
+  width: 1.875rem;
+  height: 0.4167rem;
+  background-color: #a857e4;
+  margin-bottom: 0.0521rem;
+  margin-left: 0.1563rem;
+  line-height: 0.4167rem;
+  text-align: center;
+}
+.smallbtn .liBgc {
+  background-color: #c896ed;
+}
+.minbtn li {
+  list-style: none;
+  float: left;
+  width: 1.4583rem;
+  height: 0.4167rem;
+  line-height: 0.4167rem;
+  background-color: #a857e4;
+  margin-bottom: 0.0521rem;
+  margin-left:0.1042rem;
+  text-align: center;
+}
+.minbtn .liBgc {
+  background-color: #c896ed;
+}
+.minbtns .liBgc2 {
+  background-color: #b26fe3;
+}
+.btnList li {
+  font-size: 0.1667rem;
+}
+
+
+/* 门诊部分 */
+.Department {
+  width: 100%;
+  height: 5.2083rem;
+  box-sizing: border-box;
+  margin-top: 0.625rem
+}
+.Department .fl {
+  width: 58%;
+  height: 5.2083rem;
+  box-sizing: border-box;
+  float: left;
+}
+.Department .fl .outTitle{
+  width: 100%;
+  height: 1.0417rem;
+  position: relative;
+}
+.Department .fl .outTitle .outFl {
+  width: 2.7167rem;
+  height: 1.0417rem;
+  float: left;
+  border-bottom: 1px solid #881bd9;
+  position: relative;
+  box-sizing: border-box;
+
+}
+.Department .fl .outTitle .kuai {
+  position: absolute;
+  width: 0.3125rem;
+  height: 0.5208rem;
+  background-color: #881bd9;
+  bottom: 0;
+  left: 0;
+  
+}
+.Department .fl .outTitle h1 {
+  position: absolute;
+  display: inline-block;
+  font-size: 0.5208rem;
+  font-weight: normal;
+  font-family: "微软雅黑";
+  bottom: 0;
+  left: 0.3958rem
+}
+.Department .fl .outTitle .ele {
+  float: left;
+  width: 6.3333rem;
+  height: 1.0417rem;
+  border-bottom: 1px solid #000;
+  box-sizing: border-box;
+}
+.Department .fl .outTitle .ele h1 {
+  position: absolute;
+   left: 2.7167rem;;
+   font-size: 0.3438rem;
+}
+.Department .fl .qualifications {
+  width: 100%;
+  height: 4.166rem;
+  padding: 0.4167rem 0.4167rem;
+  box-sizing: border-box;
+}
+.Department .fl .qualifications .swiper {
+  width: 4.0833rem;
+  height: 3.1042rem;
+  border: 1px solid #000;
+  float: left;
+}
+.Department .fl .qualifications .text {
+  float: left;
+  width:3.95rem;
+  height: 3.1042rem;
+}
+.Department .fl .qualifications .text h1 {
+  font-size: 0.3125rem;
+  padding-top: 0.0521rem;
+  padding-left: 0.0521rem;
+  margin-bottom: 0.3125rem;
+}
+.Department .fl .qualifications .text .tableList p {
+  font-size: 0.125rem;
+  line-height: 0.3125rem;
+  height: 0.3125rem;
+  margin-left: 0.0521rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+
+
+/* 轮播图 */
+.Department .fl .qualifications .swiper .swiper-slide {
+   width: 4.0833rem;
+  height: 3.1042rem;
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.Department .fl .qualifications .swiper .swiper-pagination-bullet {
+  width: 0.1667rem !important;
+  height:  0.1667rem !important;
+  text-align: center;
+  line-height: 0.1667rem;
+  font-size: 0.1667rem;
+  color:#000;
+  opacity: 1;
+  background: rgba(0,0,0,0.2);
+}
+.Department .fl .qualifications .swiper .swiper-pagination-bullet-active {
+  color:#fff;
+  background: #007aff;
+}
+
+
+
+
+
+/* 口腔课堂 */
+.Department .fr {
+  float: right;
+  width: 42%;
+  height: 5.2083rem;
+}
+.Department .fr {
+  width: 42%;
+  height: 5.2083rem;
+  box-sizing: border-box;
+  float: left;
+}
+.Department .fr .outTitle{
+  width: 100%;
+  height: 1.0417rem;
+  position: relative;
+}
+.Department .fr .outTitle .outFl {
+  width: 2.7167rem;
+  height: 1.0417rem;
+  float: left;
+  border-bottom: 1px solid #881bd9;
+  position: relative;
+  box-sizing: border-box;
+
+}
+.Department .fr .outTitle .kuai {
+  position: absolute;
+  width: 0.3125rem;
+  height: 0.5208rem;
+  background-color: #881bd9;
+  bottom: 0;
+  left: 0;
+  
+}
+.Department .fr .outTitle h1 {
+  position: absolute;
+  display: inline-block;
+  font-size: 0.5208rem;
+  font-weight: normal;
+  font-family: "微软雅黑";
+  bottom: 0;
+  left: 0.3958rem
+}
+.Department .fr .outTitle .ele {
+  float: left;
+  width: 3.845rem;
+  height: 1.0417rem;
+  border-bottom: 1px solid #000;
+  box-sizing: border-box;
+}
+.Department .fr .outTitle .ele h1 {
+  position: absolute;
+   left: 2.7167rem;;
+   font-size: 0.3438rem;
+}
+.Department .fr .content {
+  width: 100%;
+  height: 4.166rem;
+  padding-top: 0.2083rem;
+  box-sizing: border-box;
+}
+.Department .fr .content .swiper {
+  width: 100%;
+  height: 1.7708rem;
+  border: 1px solid #000;
+  box-sizing: border-box;
+}
+.Department .fr .content .outList {
+  width: 100%;
+  height: 1.5625rem;
+  padding-top: 0.1563rem;
+  box-sizing: border-box;
+}
+.Department .fr .content .outList p {
+  height: 0.3854rem;
+  line-height: 0.4167rem;
+  font-size: 0.125rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.Department .fr .content .outList p a {
+  text-decoration: none;
+  color: #000;
+}
+.Department .fr .content .outList p a:hover {
+  color: #9331dd;
+}
+.Department .fr .content .swiper{
+    height: 1.7708rem;
+}
+.Department .fr .content .swiper .swiper-slide {
+  width: 100%;
+  height: 1.7708rem;
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.Department .fr .content .swiper .swiper-pagination-bullet {
+  width: 0.18rem !important;
+  height: 0.18rem !important;
+  text-align: center;
+  line-height: 0.18rem;
+  font-size: 0.18rem;
+  color:#000;
+  opacity: 1;
+  background: rgba(0,0,0,0.2);
+}
+.Department .fr .content .swiper .swiper-pagination-bullet-active {
+  color:#fff;
+  background: #007aff;
+}
+
+
+
+
+/* 医生团队 */
+.team {
+  width: 100%;
+  height: 1.5625rem;
+  margin-bottom: 0.5208rem;
+}
+.team .w {
+  position: relative;
+}
+.team .governance {
+  float: left;
+  width: 2.7167rem;
+  height: 1.5625rem;
+  box-sizing: border-box;
+  position: relative;
+}
+.team .governance .fl {
+  width: 2.7167rem;
+  height: 1.5625rem;
+  float: left;
+  border-bottom: 1px solid #881bd9;
+  position: relative;
+}
+.team .governance .fl .kuai {
+  position: absolute;
+  width: 0.3125rem;
+  height: 0.5208rem;
+  background-color: #881bd9;
+  bottom: 0;
+  left: 0;
+}
+.team .governance .fl h1 {
+  position: absolute;
+  display: inline-block;
+  font-size: 0.5208rem;
+  font-weight: normal;
+  font-family: "微软雅黑";
+  bottom: 0;
+  left: 0.3958rem
+}
+.team .ele {
+  float: left;
+  width: 100%;
+  border-bottom: 1px solid #000;
+}
+.team .ele h1 {
+  position: absolute;
+   top: 1.0417rem;
+   left: 2.7167rem;;
+   font-size: 0.3438rem;
+}
+/* 医生团队Swiper */
+.teamSwiper {
+  width: 100%;
+   /* height: 3.5417rem; */
+     height: 4.5rem;
+}
+
+.teamSwiper .box{
+  width: 100%;
+  /* height: 3.5417rem; */
+   height: 4.5rem;
+  /* background-color: pink; */
+  overflow: hidden;
+}
+
+/* body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 0.1458rem;
+  color:#000;
+  margin: 0;
+  padding: 0;
+} */
+.swiper-container {
+  width: 100%;
+ height: 4.5rem;
+  /* height: auto; */
+  padding:0.9375rem 0;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 0.1875rem;
+  height: 2.0833rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+transition-property:all;
+}
+#progressEffect{
+position: absolute;
+  z-index: 10;
+  top: 0.2083rem;
+  left: 0.2083rem;
+}
+.teamSwiper .box .swiper3 .swiper-pagination {
+  position: absolute;
+  bottom: 0px;
+  z-index: 999;
+}
+.teamSwiper .box .swiper3  .swiper-pagination-bullet {
+    width: 0.1667rem ;
+    height:  0.1667rem ;
+}
+/* 遮罩层 */
+.teamSwiper .box .swiper-container .swiper-wrapper .swiper-slide .mask {
+  position: absolute;
+  width: 3.3333rem;
+  height: 3.5521rem;
+  background: rgba(101, 101, 101, 0.6);
+  color: #ffffff;
+  opacity: 0;
+
+}
+/* 鼠标移入遮罩层 */
+.teamSwiper .box .swiper-container .swiper-wrapper .swiper-slide:hover .mask {
+  opacity: 1;
+}
+
+
+
+/* 关于我们 */
+.About {
+  width: 100%;
+  height: 5.092rem;
+}
+.About .aboutUs {
+  width: 100%;
+  height: 5.092rem;
+  border-bottom: 1px solid #ccc;
+}
+.About .AboutSwiper {
+    width: 50%;
+    height: 5.092rem;
+    float: left;
+    box-sizing: border-box;
+
+}
+.About .AboutSwiper .AboutSwiper {
+  width: 100%;
+  height: 100%;
+}
+/* 关于我们swiper */
+.About .AboutSwiper .AboutSwiper #aboutSwiper {
+  width: 100%;
+  height: 5.7292rem !important;
+}
+#aboutSwiper{
+  height: 5.7292rem !important;
+}
+.About .AboutSwiper .AboutSwiper .swiper-slide {
+  text-align: center;
+  font-size: 0.1875rem;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+/* 医院介绍 */
+
+.About .Profile {
+  width: 50%;
+  height: 5.092rem;
+  float: left;
+  box-sizing: border-box;
+  padding: 0 0.3125rem;
+}
+.About .Profile .introduce {
+  width: 100%;
+  height: 2.875rem;
+  padding-top: 0.2083rem;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+}
+.About .Profile .introduce h1 {
+  font-size: 0.2917rem;
+  margin-left: 0.2083rem;
+}
+.About .Profile .introduce p {
+  font-size: 0.1563rem;
+  margin-left: 0.2083rem;
+}
+.About .Profile .introduce article{
+  text-indent:2em;
+  margin: 0.1042rem 0.1042rem;
+  line-height: 0.3125rem;
+}
+.About .Profile .introduce div {
+  width: 0.8292rem;
+  height: 0.3604rem;
+  border-radius: 0.0833rem;
+  overflow: hidden;
+  position: absolute;
+  right: 0rem;
+  bottom: 0;
+}
+.About .Profile .introduce div a {
+  background-color: #a857e4;
+  display: block;
+  width: 0.8292rem;
+  height: 0.3604rem;
+  line-height: 0.3604rem;
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.125rem;
+  text-align: center; 
+}
+/* 医院介绍Swiper */
+.About .Profile  .intrSwiper {
+  width: 100%;
+  height: 1.5208rem;
+  background-color: #eee;
+  margin-top: 0.1042rem;
+}
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color:#000;
+  margin: 0;
+  padding: 0;
+}
+.About .Profile  .intrSwiper .swiper-container {
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.About .Profile  .intrSwiper .swiper-slide {
+  text-align: center;
+  font-size: 0.1875rem;
+  background: #fff;
+  height: 1.5208rem;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+transition-property:all;
+}
+.About .Profile  .intrSwiper #progressEffect{
+position: absolute;
+  z-index: 10;
+  top: 0.2083rem;
+  left: 0.2083rem;
+}
+
+
+
+
+
+/* 先进设备 */
+.Advanced {
+  width: 100%;  
+  height: 3.4375rem;
+  overflow: hidden;
+}
+.Advanced .team {
+  height: 1rem;
+  box-sizing: border-box;
+}
+.Advanced  .AdvText {
+ float: left;
+ width: 40%;
+ height: 1.5625rem;
+}
+.AdvText  p {
+  display: block;
+  width: 6rem;
+  height: 1.5625rem;
+  line-height: 0.3125rem;
+  text-indent:2em;
+  margin-top: 0.1563rem;
+  font-size: 0.125rem;
+}
+
+
+
+
+
+/* 先进设备swiper */
+ .Advanced  .AdvSwiper {
+  float: left;
+  width: 60%;
+  height: 1.8625rem;
+  background-color: #ccc;
+  margin-top: 0.1563rem;
+ }
+
+/* body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 0.1458rem;
+  color:#000;
+  margin: 0;
+  padding: 0;
+} */
+.Advanced  .AdvSwiper  .swiper-container {
+  width: 100%;
+  height: auto;
+/* padding:0.9375rem 0; */
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.Advanced  .AdvSwiper  .swiper-slide {
+  text-align: center;
+  font-size: 0.1875rem;
+  background: #fff;
+  height: 2.0833rem;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+transition-property:all;
+}
+.Advanced  .AdvSwiper  #progressEffect{
+position: absolute;
+  z-index: 10;
+  top: 0.2083rem;
+  left: 0.2083rem;
+}
+.Advanced  .AdvSwiper  .swiper-pagination {
+  bottom: 0.4083rem;
+}
+
+
+
+
+
+
+
+/* 中部横线 */
+.w {
+  position: relative;
+}
+ .centent {
+  position: absolute;
+  width: 4.25rem;
+  height: 0.1042rem;
+  background-color: #a857e4;
+  top: 0.4683rem;
+  left: 5.8625rem; 
+  z-index: 9999;
+}
+/* 尾部 */
+.footer {
+  width: 100%;
+  height: 3.9063rem;
+  background-color: #e4e4e4;
+  margin-top: 0.5208rem;
+  overflow: hidden;
+  position: relative;
+}
+/* 上部分 */
+.footer .footerTitle {
+  padding: 0.1042rem 0rem;
+  width: 100%;
+  height: 1.6354rem;
+  border-top: 0.0104rem solid #bbbbbb;
+  position: relative;
+  }
+.footer .footerTitle .logo {
+    width: 3.7708rem;
+    height: 1.6354rem;
+  }
+.footer .footerTitle .logo  a {
+  display: block;
+  width: 4.1667rem;
+  height: 1.6354rem;
+  background:url('../image/images/img/PC端_57.jpg') no-repeat center;
+  text-indent: -104.1563rem;
+  overflow: hidden;
+  background-size: 4.1667rem 1.6354rem;
+  }
+.footer .footerTitle .border {
+      width: 0.0417rem;
+      height: 0.5208rem;
+      background-color: #8b8b8b;
+      position: absolute;
+      top: 0.5729rem;
+      left: 4.2083rem;
+  }
+.footer .footerTitle .footFr {
+      width: 10.125rem;
+      height: 1.6146rem;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+  }
+.footer .footerTitle .footFr img {
+      margin-top: 0.3125rem;
+      width: 100%;
+
+  }
+
+/* 底部 */
+.footer .footerButtom {
+  width: 10.4167rem;
+  height: 0.9375rem;
+  margin: 0 auto;
+  border-top: 0.0104rem solid #cdb2e1;
+  padding: 0.2604rem 0.2604rem;
+}
+.footer .footerButtom .footFl {
+  float: left;
+  width: 5.8333rem;
+  height: 0.9375rem;
+}
+.footer .footerButtom .footFl h3 {
+  padding-left: 0.0521rem;
+  margin-bottom: 0.1042rem;
+}
+
+.footer .footerButtom .footfr {
+  float: right;
+  width: 3.8021rem;
+  height: 0.9375rem;
+}
+.footer .footerButtom .footfr h3 {
+  padding-left: 0.1042rem;
+  margin-bottom: 0.1042rem;
+}
+
+
+
+/* 底部栏 */
+.fixFooter {
+  background-color: #101925;
+  height: 0.5208rem;
+  width: 100%;
+  position: fixed;
+  bottom: 0rem ;
+  z-index: 999;
+}
+.fixFooter .fixList {
+  width: 2.0833rem;
+  height: 0.6771rem;
+  line-height: 0.2604rem;
+  float: left;
+  background-color: #ed6d00;
+  margin-top: -0.1458rem;
+  font-size: 0.2083rem;
+  color: #fff;
+  padding-left: 0.6771rem;
+  padding-top: 0.0521rem;
+  position: relative;
+}
+
+.fixFooter .fixList  .my-out {
+  font-size: 0.3958rem;
+  position: absolute;
+  left: 0.1667rem;
+  top: 0.125rem;
+}
+
+.fixFooter  .rdxm {
+  width: 1.6667rem;
+  height: 0.5208rem;
+  float: left;
+  color: #fff;
+  font-size: 0.2083rem;
+  text-align: center;
+  line-height: 0.5208rem;
+  border-left: 0.0104rem solid #777373 ;
+  padding-left: 0.3125rem;
+  padding-right: 0.2083rem;
+}
+
+.fixFooter  .rdxm a {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 0.1042rem;
+}
+
+.fixFooter  .zxgh {
+  width: 1.6667rem;
+  height: 0.5208rem;
+  float: left;
+  color: #fff;
+  font-size: 0.2083rem;
+  text-align: center;
+  line-height: 0.5208rem;
+  border-left: 0.0104rem solid #777373 ;
+  padding-left: 0.2083rem;
+  padding-right: 0.2083rem;
+
+}
+
+.fixFooter  .zxgh a {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 0.1042rem;
+}
+
+.fixFooter .th {
+  width: 1.6667rem;
+  height: 0.5208rem;
+  float: left;
+  color: #fff;
+  font-size: 0.2083rem;
+  text-align: center;
+  line-height: 0.5208rem;
+  border-left: 0.0104rem solid #777373 ;
+  padding-left: 0.2083rem;
+  padding-right: 0.2083rem;
+
+}
+.fixFooter .th a {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 0.1042rem;
+}
+
+.fixFooter  .luxian {
+  width: 1.6667rem;
+  height: 0.5208rem;
+  float: left;
+  color: #fff;
+  font-size: 0.2083rem;
+  text-align: center;
+  line-height: 0.5208rem;
+  border-left: 0.0104rem solid #777373 ;
+  padding-left: 0.2083rem;
+  padding-right: 0.2083rem;
+
+}
+
+.fixFooter  .luxian  a {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 0.1042rem;
+}

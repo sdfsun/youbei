@@ -1,0 +1,1467 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+/* 设置版心 */
+.w {
+    width: 15.625rem;
+    margin: 0 auto;
+ }
+ /* logo部分 */
+ .header {
+     width: 100%;
+     height: 1.25rem;
+     overflow: hidden;
+ }
+ .header .logo1 {
+    width: 4rem;
+    height: 0.8rem;
+    float: left;
+    margin-top: 0.2004rem;
+  }
+  .header a {
+        display: block;
+        width: 4rem;
+        height: 0.8rem;
+        text-indent: -104.1563rem;
+        overflow: hidden;
+        background:url('../image/images/log.png')no-repeat center;
+        background-size: 4rem 0.8rem;
+  
+  }
+  /* 输入框 */
+  .input {
+    width: 6.0417rem;
+    height: 0.4646rem;
+    margin-top: 0.45rem;
+    margin-left: 0.6083rem;
+    float: left;
+    position: relative;
+  }
+  .input span {
+    position: absolute;
+    top: 0.0821rem;
+    left: 0.0521rem;
+    width: 0.3125rem;
+    height: 0.3125rem;
+    background: url('../image/icon/search.png') no-repeat center;
+    background-size: 0.3125rem 0.3125rem;
+  }
+  .input input {
+    display: block;
+    width: 6.825rem;
+    height: 100%;
+    border:0.0104rem solid #ccc;
+    padding-left: 0.4167rem;
+    font-size: 0.1667rem
+  }
+/* 电话部分 */
+  .photo {
+    width: 3.3rem;
+    height: 1.25rem;
+    float: left;
+    margin-left: 1.6rem;
+
+  }
+  .photo .icon {
+    width: 0.7208rem;
+    height: 0.7rem;
+    border-radius: 0.0833rem;
+    background: url('../image/images/img/photo.png') no-repeat center;
+    margin-top: 0.3167rem;
+   
+    float: left;
+    background-size: 0.7208rem 0.7rem; 
+  }
+  .photo ul {
+      margin-top: 0.4167rem;
+      margin-left: 0.8125rem;
+
+  }
+  .photo ul li {
+      list-style: none;
+
+  }
+  .photo ul li span {
+      font-size: 0.125rem;
+      color: #000;
+  }
+  .photo ul li strong {
+      font-size: 0.2604rem;
+      color: #000;
+  }
+  
+  /* title 部分Swiper  */
+  .titleSwiper {
+    width: 100%;
+    height: 4.8958rem;
+    padding-bottom: 0.0521rem;
+    border-bottom: 0.0208rem solid #ccc;
+  }
+  html, body {
+    position: relative;
+    height: 100%;
+  }
+  body {
+    background: #fff;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+  }
+  .titleSwiper  .swiper-container {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .titleSwiper  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+
+
+
+
+
+
+   /* 课堂部分 */
+  .content {
+    width: 100%;
+    height: 11.875rem;
+    margin-top: 0.625rem;
+  }
+  .content .contentFl {
+    float: left;
+  }
+  .content .room {
+    width: 1.875rem;
+    height: 1.25rem;
+    background-color: #881bd9;
+    margin-bottom: 0.3521rem;
+  }
+  .content .room .none {
+    display: none;
+  }
+  /* 关于我们 */
+  .content .contentFl .we {
+    height: 2.6563rem;
+    height: 5.875rem;
+    background-color: #ededed;
+    padding-top: 1.0417rem;
+    padding-left: 0.3438rem;
+    margin-bottom: 0.3721rem; 
+  
+  }
+  .content .contentFl .weLeft {
+        width: 1.2083rem;
+        height: 4.6875rem;
+        padding-top: 0.625rem;
+        border-left: 0.0208rem solid  #881bd9; 
+  }
+  .content .contentFl .weLeft .Home{
+     background-color: #881bd9;
+ } 
+ .content .contentFl .weLeft .Home a {
+    color: #fff;
+ }
+
+  .content .contentFl .weLeft ul li {
+      height: 0.5833rem;
+      width: 1.1979rem;
+  }
+  .content .contentFl .weLeft ul li a {
+      display: block;
+      text-decoration: none;
+      text-align: center;
+      height: 0.5833rem;
+      width: 1.1979rem;
+      line-height: 0.5833rem;
+      color: #000;
+      font-size: 0.2083rem;
+      overflow: hidden;
+      text-overflow:ellipsis;
+      white-space: nowrap;
+  }
+
+  .content .contentFl .we ul li {
+    border-bottom: 0.0104rem solid #881bd9;
+  }
+  
+  .el-menu-item.is-active {
+    background: #881bd9 !important;
+  }
+  .el-submenu__title.is-active {
+    background: #881bd9 !important;
+  }
+  
+  .content .contentFl   .weCentent {
+        width: 1.25rem;
+        height: 2.6563rem;
+        border-left: 0.0208rem solid #9234d8;
+        padding-top: 0.625rem;
+  }
+  .content .weCentent ul {
+    height: 2.6563rem;
+    width: 1.25rem;
+  }
+  .content .weCentent ul li {
+    width: 1.25rem;
+    height: 0.375rem;
+    list-style: none;
+    border-bottom: 0.0104rem solid #9234d8;
+  }
+  .content .weCentent ul .is {
+    background-color: #9234d8;
+  }
+  .content .weCentent ul li a {
+    width: 1.25rem;
+    height: 0.375rem;
+    line-height: 0.375rem;
+    text-decoration: none;
+    padding-left: 0.1563rem;
+    font-size: 0.1875rem;
+    color: #000;
+    font-weight:normal;
+  }
+  .content .weCentent ul li:hover {
+    background-color: #9234d8;
+    color: #fff;
+  }
+  .content .weCentent ul a:hover {
+  color: #fff;
+  }
+  /* 热线部分 */
+  .content .Hotline {
+     width: 1.875rem;
+     height: 2.6563rem;
+     background-color: #ededed;
+  }
+  .content .logoImg {
+    width: 1.875rem;
+    height: 1.1458rem;
+    background-color: #9234d8;
+    background: url('../image/icon/logo.png') no-repeat center;
+    background-size: 1.4063rem 0.7813rem;
+  }
+  .content .logoImg  a {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  .HotlinePhoto {
+    width: 1.875rem;
+    height: 1.5104rem;
+  }
+  
+  .HotlinePhoto .re {
+    width: 1.875rem;
+    height: 0.5208rem;
+  }
+  .HotlinePhoto .re p {
+    font-size: 0.125rem;
+    height: 0.2083rem;
+    line-height: 0.2083rem;
+    text-align: center;
+    padding-top: 0.1042rem;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+  }
+  .HotlinePhoto .re h2 {
+    font-weight: normal;
+    height: 0.3083rem;
+    line-height: 0.3083rem;
+    text-align: center;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+  }
+  .HotlinePhoto .HotlineBut {
+    width: 1.875rem;
+    height: 1.0417rem;
+  }
+  .HotlinePhoto .HotlineBut p {
+    font-size: 0.125rem;
+    height: 0.2083rem;
+    line-height: 0.2083rem;
+    text-align: center;
+    padding-top: 0.2083rem;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+  }
+  .HotlinePhoto .HotlineBut h2 {
+    font-size: 0.1667rem;
+    height: 0.3083rem;
+    line-height: 0.3083rem;
+    font-weight: normal;
+    text-align: center;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+  }
+  .content .div {
+    width: 1.875rem;
+    height: 0.4167rem;
+    margin-top: 0.0521rem;
+    background-color: #9234d8;
+  }
+  
+  /* 中心 */
+  .content .cen .cenTitle{
+     width: 85%;
+     /* height:0.8333rem; */
+     box-sizing: border-box;
+  }
+  .content .cen  #cenNone {
+    display: none;
+  }
+
+  .content .cen .cenTitle .governance .fl {
+    width: 2.7167rem;
+    /* height:0.8333rem;  */
+    margin-top: 0.5083rem;
+    float: left;
+    border-bottom: 1px solid #881bd9;
+    position: relative;
+    margin-left: 0.2083rem;
+  }
+  .content .cen .cenTitle .fl .kuai {
+    position: absolute;
+    width: 0.3125rem;
+    height: 0.5208rem;
+    background-color: #881bd9;
+    bottom: 0;
+    left: 0;
+  }
+  .content .cen .cenTitle .fl h1 {
+    position: absolute;
+    display: inline-block;
+    font-size: 0.4208rem;
+    font-weight: normal;
+    font-family: "微软雅黑";
+    bottom: 0;
+    left: 0.3958rem
+  }
+  .content .cen .cenTitle .ele {
+    float: left;
+    width: 63%;
+    margin-top: 0.5083rem;
+    /* height:0.8333rem;  */
+    border-bottom: 1px solid #000;
+    position: relative;
+  }
+  .content .cen .cenTitle .ele h1 {
+     font-size: 0.3438rem;
+     font-weight: normal;
+     position: absolute;
+     bottom: 0;
+  }
+
+
+
+  /* 关于我们content  */
+  .box {
+     width: 10.3rem;
+     height: 11.5rem;
+     float: left;
+     /* margin-left: 2.0083rem; */
+     margin-top: 0.708rem;
+     /* background-color: yellow; */
+     box-sizing: border-box;
+  }
+  .box .abo {
+    width: 9rem;
+    height: 11rem;
+    margin: 0.4083rem 2.5833rem;
+    box-sizing: border-box;
+  }
+  .box .aboutSwiper {
+    width: 8.25rem;
+    height: 4.7813rem;
+    margin: 0 auto;
+
+  }
+  /* 公司介绍轮播图 */
+  #abSwiper {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #abSwiper .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  /* 公司介绍 */
+  .box  .text {
+    width: 8.25rem;
+    height: 5.7rem;
+    margin: 0 auto;
+  }
+  .box  .text h1 {
+    font-weight: normal;
+    font-size: 0.4167rem;
+  }
+   .box  .text p {
+     font-size: 0.1875rem;
+   }
+  .box  .text article {
+    margin-top: 0.0938rem;
+    text-indent:2em;
+    /* line-height: 0.2396rem; */
+    font-size: 0.2rem;
+  }
+  .box  .text .img {
+    width: 8.25rem;
+    height: 1.2417rem;
+    display: flex;
+    margin-top: 0.2rem
+  }
+  .box  .text .flImg {
+  height: 1.2417rem;
+  margin-right: 0.1042rem;
+  flex: 1;
+  }
+  .box  .text .cenImg {
+  height: 1.2417rem;
+  margin-right: 0.1042rem;
+  flex: 1;
+  }
+  .box  .text .frImg {
+ height: 1.2417rem;
+  flex: 1;
+  }
+
+  /* 联系按钮 */
+  .box  .contact {
+  width: 8.3rem;
+  height: 0.3438rem;
+  margin-left: 1.825rem;
+  margin-top: 0.1rem
+  }
+  /* 联系按钮 */
+  .box  .contact div {
+  width: 2.0833rem;
+  height: 0.3125rem;
+  background-color: #fcca30;
+  border-radius: 0.1042rem;
+  float: left;
+  margin-left: 0.8333rem;
+  }
+  .box  .contact div a {
+  width: 2.0833rem;
+  height: 0.3125rem;
+  line-height: 0.3125rem;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  font-size: 0.1875rem;
+  color: #fff;
+  }
+
+
+  /* 主治项目 */
+.box .project {
+    width: 9rem;
+    height: 11rem;
+    margin: 0.4083rem 2.5833rem;
+    /* background-color: red; */
+    box-sizing: border-box;
+}
+.box .project ul li {
+  float: left;
+  width: 50%;
+  height: 5.1rem;
+  box-sizing: border-box;
+
+}
+.box .project ul li:nth-child(3){
+  margin-top: 0.2083rem;
+}
+.box .project ul li:nth-child(4){
+  margin-top: 0.2083rem;
+}
+.box .project ul li .con {
+  box-sizing: border-box;
+  margin-left: 0.5042rem;
+}
+.box .project ul li .con img {
+ width: 4.1667rem;
+ height: 2.3833rem;
+ box-shadow: 0px 0.0208rem 0.0521rem 0.0521rem rgba(0,0,0,0.3);
+}
+
+.box .project ul li .con .details {
+  width: 4.1667rem;
+  height: 2.6042rem;
+  box-shadow: 0px 0.0208rem 0.0521rem 0.0521rem rgba(0,0,0,0.3);
+  overflow: hidden;
+}
+.box .project ul li .con .details h3 {
+  margin-left: 0.1042rem;
+  height: 0.5rem;
+  line-height: 0.625rem;
+}
+.box .project ul li .con .details h6 {
+  margin-left: 0.1042rem;
+  font-weight: normal;
+  color: #b4b4b4;
+  margin-bottom: 0.1604rem;
+}
+.box .project ul li .con .details p {
+  margin-left: 0.1042rem;
+}
+.box .project ul li .con .details .p {
+  color: #999999;
+  margin-top: 0.1083rem;
+}
+.box .project ul li .con .details .btn {
+   width: 1.0417rem;
+   height: 0.3125rem;
+   background-color: #871cd9;
+   margin-top: 0.1083rem;
+   margin-left: 0.2083rem;
+}
+.box .project ul li .con .details .btn a {
+
+  width: 1.0417rem;
+  height: 0.3125rem;
+  line-height: 0.3125rem;
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  text-align: center;
+  font-size: 0.125rem;
+}
+  /* 联系区域 */
+.box .project  .lianxi {
+   width: 100%;
+    height: 0.5208rem;
+    float: left;
+ }
+ /* 联系按钮 */
+ .box .project .lianxi div {
+  width: 2.0833rem;
+  height: 0.3125rem;
+  background-color: #fcca30;
+  border-radius: 0.1042rem;
+  float: left;
+  margin-left: 2.1042rem;
+  margin-top: 0.1083rem;
+}
+.box .project .lianxi div a {
+  width: 2.0833rem;
+  height: 0.3125rem;
+  line-height: 0.3125rem;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  font-size: 0.1875rem;
+  color: #fff;
+}
+
+
+
+/* 医生团队content */
+.box .Ateam {
+
+      width: 9rem;
+    height: 11rem;
+    margin: 0.4083rem 2.5833rem;
+    /* background-color: red; */
+      box-sizing: border-box;
+      overflow: hidden;
+  
+}
+.box .Ateam ul li {
+  list-style: none;
+  display: block;
+  margin-top: 0.13rem;
+}
+.box .Ateam ul li .he {
+  width: 9.5rem;
+  height: 2.5rem;
+}
+.box .Ateam ul li .AteamFl {
+  width: 2.3rem;
+  height: 2.3rem;
+  border: 0.0104rem solid #a0a0a0;
+  float: left;
+  margin-top: 0.15rem;
+}
+.box .Ateam ul li .AteamFr {
+  width: 6.7rem ;
+  /* height: 2rem; */
+  float: left;
+  padding-left: 0.4167rem;
+}
+.box .Ateam ul li .AteamFr h2 {
+  font-weight:normal
+}
+.box .Ateam ul li .AteamFr span {
+  display: block;
+  width: 0.1563rem;
+  height: 0.0521rem;
+  background-color: #871cd9;
+  /* margin-top: 0.0313rem; */
+  /* margin-bottom: 0.0313rem; */
+}
+.box .Ateam ul li .AteamFr h5 {
+  font-weight:normal;
+  color: #4e4e4e;
+}
+.box .Ateam ul li .AteamFr h4 {
+  color: #434343;
+  margin-top: 0.1042rem;
+  font-size: 0.21rem;
+  margin-bottom: 0.0521rem;
+}
+.box .Ateam ul li .AteamFr h6 {
+  font-size: 0.125rem;
+  font-weight:normal;
+  color: #545454;
+}
+
+/* 联系区域 */
+.box .Atelianxi {
+ width: 9.5rem;
+ height: 0.3125rem;
+ margin-top: 0.1rem;
+}
+/* 联系按钮 */
+.box .Atelianxi div {
+  width: 2.0833rem;
+  height: 0.3125rem;
+  background-color: #fcca30;
+  border-radius: 0.1042rem;
+  float: left;
+  margin-left: 2.1042rem;
+}
+.box .Atelianxi div a {
+  width: 2.0833rem;
+  height: 0.3125rem;
+  line-height: 0.3125rem;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  font-size: 0.1875rem;
+  color: #fff;
+}
+
+
+
+/* 先进设备content */
+.box .advImg {
+    width: 9rem;
+    height: 11rem;
+    margin: 0.4083rem 2.85rem;
+
+}
+.box .advImg .advTit {
+  width: 8.4583rem;
+  height: 2.5rem;
+  display: flex;
+  margin-bottom: 0.3167rem;
+  margin-top: 0.4367rem;
+  padding-top: 0.1042rem;
+  /* background-color: red; */
+}
+.box .advImg .advTit .advFl{
+   flex: 1;
+
+}
+
+.box .advImg .advTit .advFl .equimg {
+  width: 100%;
+  height: 2.5rem;
+}
+
+
+.box .advImg .advTit .advFl .equimg1 {
+    width: 1.875rem;
+    height: 1.2542rem;
+    margin: 0 auto;
+    margin-top: 0.2083rem;
+    border: 0.0204rem solid #a0a0a0;
+    /* box-sizing: border-box; */
+}
+.box .equText {
+  width: 2.0833rem;
+  height: 0.8333rem;
+  margin: 0 auto;
+ /* background-color: red; */
+  border-bottom: 1px solid #a0a0a0;
+  overflow: hidden;
+}
+.box .equText h1 {
+  width: 2.0833rem;
+   font-weight: normal;
+   text-align: center;
+   padding-top: 0.1563rem;
+   font-size: 0.1875rem;
+   box-sizing: border-box;
+}
+.box .equText p {
+  width: 2.0833rem;
+  padding-top: 0.0521rem;
+  text-align: center;
+  font-size: 0.1563rem;
+  box-sizing: border-box;
+}
+/* 分割线 */
+.box .Line {
+ width: 4.1667rem;
+ margin: 0 auto;
+ background:linear-gradient(to left,#efefef,#b6b6b6,#efefef);
+ height:0.0104rem;
+}
+.box .butLine {
+ width: 4.1667rem;
+ margin: 0 auto;
+ background:linear-gradient(to left,#efe0fa,#c78fef,#efe0fa);
+ height:0.0108rem;
+}
+/* 联系区域 */
+.box .advImg .lianxi {
+  width: 100%;
+  height: 1rem;
+  margin-top: 0.483rem;
+ }
+ /* 联系按钮 */
+.box .advImg .lianxi div {
+   width: 2.0833rem;
+   height: 0.3125rem;
+   background-color: #fcca30;
+   border-radius: 0.1042rem;
+   float: left;
+   margin-left: 1.4042rem;
+ }
+.box .advImg .lianxi div a {
+   width: 2.0833rem;
+   height: 0.3125rem;
+   line-height: 0.3125rem;
+   text-align: center;
+   display: block;
+   text-decoration: none;
+   font-size: 0.1875rem;
+   color: #fff;
+}
+
+
+
+/* 门诊资质content */
+.box .outBox {
+     width: 9rem;
+    height: 11rem;
+      margin: 0.4083rem 2.5833rem;
+}
+/* 文字内容 */
+.box .outBox .Outtext {
+  width: 1.5625rem;
+  height: 0.5208rem;
+  border: 0.0104rem solid #b6b6b6;
+  position: absolute;
+  top: 0.25rem;
+  left: 6.3083rem;
+  background-color: #fff;
+}
+.box .outBox .Outtext h1 {
+  width: 1.3542rem;
+  height: 0.3646rem;
+  margin: 0.0833rem auto;
+  font-size: 0.2083rem;
+  background-color: #871cd9;
+  line-height: 0.3646rem;
+  text-align: center;
+  font-weight: normal;
+  color: #fff;
+}
+
+ /* 认证机构 */
+ .box .outBox .out {
+    width: 7.0417rem;
+    height: 8.9583rem;
+    margin: 0.5083rem auto;
+    border-top: 0.0104rem solid #b6b6b6;
+    padding: 0.5rem 0.5208rem;
+
+}
+.box .outBox .outtitle {
+    width: 100%;
+    height: 2.9167rem;
+    margin-bottom: 0.3646rem;
+}
+.box .outBox .outFl {
+    width: 2.6563rem;
+    height: 2.9167rem;
+    float: left;
+}
+.box .outBox .outFl img {
+   width: 2.6563rem;
+   height: 1.9792rem;
+   box-shadow: 0.0417rem 0.0521rem 0.0313rem 0rem rgba(0,0,0,0.3);
+   margin-bottom:0.1563rem;
+}
+.box .outBox .outFl .year {
+   width: 2.5521rem;
+   margin: 0 auto;
+   height: 0.8208rem;
+   border:0.0104rem solid #a0a0a0;
+   overflow: hidden;
+}
+.box .outBox .outFl .year p  {
+   margin-top: 0.0521rem;
+   text-align: center;
+   font-size: 0.0313rem;
+}
+.box .outBox .outFl .year h3 {
+  text-align: center;
+  font-size: 0.1042rem;
+  margin-top: 0.1083rem;
+}
+.box .outBox .outFr {
+    width: 2.6563rem;
+    height: 2.9167rem;
+    float: right;
+}
+.box .outBox .outFr img {
+   width: 2.6563rem;
+   height: 1.9792rem;
+   box-shadow: 0.0417rem 0.0521rem 0.0313rem 0rem rgba(0,0,0,0.3);
+   margin-bottom:0.1563rem;
+}
+.box .outBox .outFr .year {
+   width: 2.5521rem;
+   margin: 0 auto;
+   height: 0.8208rem;
+   border:0.0104rem solid #a0a0a0;
+   overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+
+}
+.box .outBox .outFr .year p  {
+   margin-top: 0.0521rem;
+   text-align: center;
+   font-size: 0.0313rem;
+   overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.box .outBox .outFr .year h3 {
+  text-align: center;
+  font-size: 0.1042rem;
+  margin-top: 0.1083rem;
+}
+.box .outBox .outFr .year .shanghai {
+   height: 0.125rem;
+   line-height: 0.125rem;
+   margin-top: 0.1208rem;
+}
+
+ /* 联系区域 */
+.box .outBox .Outcontact {
+  width: 100%;
+  height: 0.3125rem;
+}
+/* 联系按钮 */
+.box .outBox .Outcontact div {
+ width: 2.0833rem;
+ height: 0.3125rem;
+ background-color: #fcca30;
+ border-radius: 0.1042rem;
+ float: left;
+ margin-left: 2rem;
+}
+.box .outBox .Outcontact div a {
+ width: 2.0833rem;
+ height: 0.3125rem;
+ line-height: 0.3125rem;
+ text-align: center;
+ display: block;
+ text-decoration: none;
+ font-size: 0.1875rem;
+ color: #fff;
+}
+
+
+
+
+/* 相关资讯content */
+.box .Related {
+  width: 9rem;
+  margin: 0.4083rem 2.5833rem;
+  height: 11.2rem;
+}
+.box .Related .inSwiper {
+  width: 9rem;
+  height: 3.6rem;
+  box-sizing: border-box;
+}
+.box .Related .inSwiper #infoSwiper {
+  width: 100%;
+  height: 100%;
+}
+.box .Related .inSwiper #infoSwiper  .swiper-slide {
+  text-align: center;
+  font-size: 0.1875rem;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.box .Related .infoText {
+   width: 9rem;
+  height: 4.4rem;
+  padding-top: 0.1542rem;
+}
+.box .Related .infoText p {
+  width: 9rem;
+  color: #000;
+  height: 0.2125rem ;
+  margin: 0.10rem auto !important;
+  line-height: 0.2125rem ;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+.box .Related .infoText p:hover{
+  color: #871cd9;
+}
+.box .Related strong {
+  font-size: 0.3125rem;
+  margin-left: 0.1125rem;
+}
+/* 活动图片 */
+.box .Related  .infoImg {
+  width: 5.4167rem;
+  height: 1.3542rem;
+  margin: 0 auto;
+  border:0.0104rem solid #a0a0a0;
+  padding: 0.0521rem 0.1042rem;
+}
+
+.box .Related  #pages {
+ /* margin-left: 0.37rem; */
+ /* margin: 0 auto; */
+ display: flex;
+ width: 9rem;
+ height: 0.3rem;
+ margin-top: 0.2125rem;
+ overflow: hidden;
+}
+
+.box .Related  #pages a {
+  flex: 1;
+  font-size: 0.1667rem;
+  text-decoration: none;
+  width: 0.3125rem;
+  height: 0.2083rem;
+  line-height:0.2083rem;
+  text-align: center;
+  margin: 0 0.3125rem;
+  border:1px solid #871cd9;
+  border-radius: 0.0521rem;
+  color: #000;
+  overflow: hidden;
+text-overflow:ellipsis;
+white-space: nowrap;
+}
+.box .Related  #pages a:nth-child(1){
+  color: #fff;
+  background-color: #871cd9;
+}
+.box .Related  #pages a:nth-child(7){
+  color: #fff;
+  background-color: #871cd9;
+}
+.box .Related  #pages a:hover{
+  color: #fff;
+  background-color: #871cd9;
+}
+
+
+
+ /* 联系区域 */
+ .box .Related .Relcontact {
+  width: 100%;
+  height: 0.3125rem;
+  margin-top: 0.1042rem;
+}
+/* 联系按钮 */
+.box .Related .Relcontact div {
+ width: 2.0833rem;
+ height: 0.3125rem;
+ background-color: #fcca30;
+ border-radius: 0.1042rem;
+ float: left;
+ margin-left: 1.6875rem;
+}
+.box .Related .Relcontact div a {
+ width: 2.0833rem;
+ height: 0.3125rem;
+ line-height: 0.3125rem;
+ text-align: center;
+ display: block;
+ text-decoration: none;
+ font-size: 0.1875rem;
+ color: #fff;
+}
+
+
+
+
+/* 分页样式 */
+.pagination ul {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 1.5rem;
+  margin-top: 0.1042rem;
+}
+
+.pagination ul li {
+  padding: 0 10px;
+  vertical-align: top;
+  display: inline-block;
+  font-size: 14px;
+  min-width: 36px;
+  min-height: 28px;
+  line-height: 28px;
+  cursor: pointer;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: #ffffff;
+  color: #606266;
+  border-radius: 6px;
+  margin: 0 5px;
+  border: 1px solid #881bd9;
+  height: 30px;
+}
+.pagination ul li:nth-child(1){
+  background-color:  #881bd9;
+  color: white;
+}
+.pagination ul li:nth-child(9){
+  background-color:  #881bd9;
+  color: white;
+}
+
+.pagination ul li:hover {
+  transform: scale(1.1);
+  background-color: #881bd9;
+  color: white;
+}
+
+.pagination  li.active {
+  background: #98A6AD;
+  color: white;
+  cursor: not-allowed;
+}
+
+.pagination li.disabled {
+  cursor: not-allowed;
+}
+.pagination li.totalPage {
+  background: transparent;
+  cursor: default;
+  border: none;
+  padding: 0 6px;
+}
+
+.pagination li.totalPage:hover {
+  transform: none;
+  background-color: #ffffff;
+}
+
+
+.pagination li input {
+  -webkit-appearance: none;
+  background-color: #fff;
+  background-image: none;
+  border-radius: 4px;
+  border: 1px solid #dcdfe6;
+  box-sizing: border-box;
+  color: #606266;
+  display: inline-block;
+  font-size: inherit;
+  outline: none;
+  padding: 3px 5px;
+  transition: border-color .2s cubic-bezier(.645,.045,.355,1);
+  width: 40px;
+  height: 25px;
+  margin: 0 6px;
+}
+
+.pagination li input:focus{
+  border-color: #98A6AD;
+}
+.pagination{
+  user-select: none;
+}
+
+.pagination ul:nth-child(2){
+  border-radius: 6px;
+}
+
+input[type=number] {
+  -moz-appearance:textfield;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+
+/* 来院地址content */
+.box .Hospital {
+    width: 9rem;
+    height: 11rem;
+    margin-left: 0.5729rem;
+    box-sizing: border-box;
+    /* margin-top: 0.0083rem; */
+    float: left;
+}
+.box .Hospital .maps {
+    width: 9rem;
+    height: 5.5rem;
+    border: 1px solid #000;
+    box-sizing: border-box;
+}
+.box .Hospital .maps,#allmap {
+  width: 9rem;
+    height: 5.5rem;
+    overflow: hidden;
+
+    margin:0;
+
+    font-family:"微软雅黑";
+    position: relative;
+  } 
+
+
+
+  /* 线路部分 */
+  .box .Hospital .line {
+  width: 9rem;
+  height: 4.9479rem;
+  margin-top: 0.3125rem;
+}
+.box .Hospital .line h1 {
+  font-weight: normal;
+  font-size: 0.4025rem
+}
+.box .Hospital .line .gongjiao {
+   width: 8.5083rem;
+   height: 0.8333rem;
+   margin-top: 0.3125rem;
+   margin-left: 0.4167rem;
+   position: relative;
+   box-sizing: border-box;
+}
+.box .Hospital .gongjiao span {
+  width: 0.4688rem;
+  height: 0.3646rem;
+  position: absolute;
+  left: -0.4896rem;
+  top: -0.0029rem;
+   box-sizing: border-box;
+}
+
+
+.box .Hospital .line .gongjiao h3 {
+  margin-bottom: 0.1563rem;
+  font-size: 0.2704rem;
+     box-sizing: border-box;
+}
+.box .Hospital .line .gongjiao p {
+  height: 0.3125rem;
+  line-height: 0.3125rem;
+  display: block;
+  font-size: 0.2083rem;
+    box-sizing: border-box;
+}
+.box .Hospital .line .gongjiao p span {
+  /* display: block; */
+  margin: 0 0.0521rem;
+}
+
+.box .Hospital .line .ditie {
+  width: 5.2083rem;
+   height: 0.8333rem;
+   margin-top: 0.5208rem;
+   margin-left: 0.4167rem;
+   position: relative;
+}
+.box .Hospital .line .ditie span {
+  width: 0.4688rem;
+  height: 0.3646rem;
+  position: absolute;
+  left: -0.4896rem;
+  top: -0.0029rem;
+}
+
+.box .Hospital .line .ditie h3 {
+  margin-bottom: 0.1563rem;
+  font-size: 0.2704rem
+}
+.box .Hospital .line .ditie p {
+  height: 0.3125rem;
+  line-height: 0.3125rem;
+  display: block;
+  font-size: 0.2083rem
+}
+.box .Hospital .line .zijia {
+  width: 5.2083rem;
+   height: 0.8333rem;
+   margin-top: 0.3125rem;
+   margin-left: 0.4167rem;
+   position: relative;
+}
+.box .Hospital .line .zijia span {
+  width: 0.4688rem;
+  height: 0.3646rem;
+  position: absolute;
+  left: -0.4896rem;
+  top: -0.0029rem;
+}
+.box .Hospital .line .zijia h3 {
+  margin-bottom: 0.1563rem;
+  font-size: 0.2704rem
+}
+.box .Hospital .line .zijia p {
+  height: 0.3125rem;
+  line-height: 0.3125rem;
+  display: block;
+  font-size: 0.2083rem
+}
+
+.box .Hospital .line .Hoscontact {
+   width: 100%;
+   height: 0.3125rem;
+}
+/* 联系按钮 */
+.box .Hospital .line .Hoscontact div {
+  width: 2.0833rem;
+  height: 0.3125rem;
+  background-color: #fcca30;
+  border-radius: 0.1042rem;
+  float: left;
+  margin-left: 1.5rem;
+  margin-top: 0.6729rem;
+}
+.box .Hospital .line .Hoscontact div a {
+  width: 2.0833rem;
+  height: 0.3125rem;
+  line-height: 0.3125rem;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  font-size: 0.1875rem;
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  /* 右侧专家 */
+  .content .expert {
+    width: 3.125rem;
+    height: 5.2083rem;
+    float: right;
+    margin-top: 0.2292rem;
+    /* margin-top: -4rem; */
+  }
+  .content .expert .exTitle {
+    width: 100%;
+    height: 2.6563rem;
+    background-color: #ccc;
+    margin-bottom: 0.1042rem;
+  }
+  .content .expert .cent {
+    width: 100%;
+    height: 4.6875rem;
+    background-color: #ccc;
+    margin-bottom: 0.1042rem;
+  }
+  .content .expert .activity {
+    width: 100%;
+    height: 0.625rem;
+    background-color: #8b8b8b;
+    margin-bottom: 0.1042rem;
+    position: relative;
+  }
+  .content .expert .activity a {
+    text-decoration: none;
+  }
+  .content .expert .activity span {
+    position: absolute;
+      width: 0.4167rem;
+      height: 0.4167rem;
+      left: 0.2396rem;
+      top: 0.0833rem;
+  }
+  
+  .content .expert .activity h1 {
+    width: 100%;
+    height: 0.625rem;
+    line-height: 0.625rem;
+    text-align: center;
+    font-weight: normal;
+    color: #fff;
+    font-size: 0.2604rem;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+  }
+  .content .expert .btn {
+    width: 100%;
+    height: 2.6563rem;
+    background-color: #ccc;
+  }
+  
+
+
+  /* 中部横线 */
+.w {
+  position: relative;
+}
+ .centent {
+  position: absolute;
+  width: 4.25rem;
+  height: 0.1042rem;
+  background-color: #a857e4;
+  top: 0.4683rem;
+  left: 5.8625rem; 
+  z-index: 9999;
+}
+/* 尾部 */
+.footer {
+  width: 100%;
+  height: 2.3rem;
+  background-color: #e4e4e4;
+  margin-top: 0.5208rem;
+  overflow: hidden;
+  position: relative;
+}
+/* 底部 */
+.footer .footerButtom {
+  width: 10.4167rem;
+  height: 1.3rem;
+  margin: 0 auto;
+  border-top: 0.0104rem solid #cdb2e1;
+  padding: 0.2604rem 0.2604rem;
+}
+.footer .footerButtom .footFl {
+  float: left;
+  width: 5.8333rem;
+  height: 1.5rem;
+  overflow: hidden;
+}
+.footer .footerButtom .footFl h3 {
+  /* padding-left: 0.0521rem; */
+  /* margin-bottom: 0.1042rem; */
+}
+
+.footer .footerButtom .footfr {
+  float: right;
+  width: 4rem;
+  height: 1.5rem;
+  overflow: hidden;
+}
+.footer .footerButtom .footfr h3 {
+  padding-left: 0.1042rem;
+  margin-bottom: 0.1042rem;
+}
+
+/* 底部 */
+.footBtn {
+  width: 100%;
+  height: 35px;
+  background-color: #881bd9;
+}
